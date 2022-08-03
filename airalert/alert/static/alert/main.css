@@ -1,0 +1,29 @@
+.ukraine_map {
+  display: inline-flex;
+  justify-content: center;
+  height: 95%;
+  width: 95%;
+}
+
+
+body {
+background-color: #f5f5f5;
+font-family: sans-serif;
+}
+
+.land {
+fill-opacity: 1;
+stroke: #464c46;
+stroke-opacity: 1;
+stroke-width:0.4;
+}
+
+
+
+
+
+
+
+
+
+
