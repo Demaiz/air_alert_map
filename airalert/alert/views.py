@@ -23,7 +23,6 @@ def index(request):
     for reg in regions:
         context["id" + str(i)] = jsonout["states"][reg]["enabled"]
         i += 1
-    # render(request, 'alert/ukrainemap.svg', context)
     return render(request, 'alert/index.html', context)
 
 
